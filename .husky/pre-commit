@@ -6,6 +6,4 @@
 # So, adding exec 1> /dev/tty (to redirect stdout) or exec >/dev/tty 2>&1
 exec >/dev/tty 2>&1
 
-yarn run pre-commit
-# Runs this:
-# "eslint --cache --fix . && prettier --write . && git add -A ."
+yarn lint-staged

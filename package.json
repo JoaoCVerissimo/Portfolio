@@ -10,7 +10,7 @@
     "lint": "prettier --check .",
     "format": "prettier --write .",
     "eslint": "eslint --cache --fix .",
-    "pre-commit": "lint-staged"
+    "pre-commit": "eslint --cache --fix . && prettier --write . && git add -A ."
   },
   "lint-staged": {
     "*.{js,tsx,ts}": "eslint --cache --fix .",
