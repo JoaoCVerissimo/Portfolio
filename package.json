@@ -8,11 +8,12 @@
     "start": "next start",
     "lint": "prettier --check .",
     "format": "prettier --write .",
+    "eslint": "eslint --cache --fix",
     "new:component": "hygen new component"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn format && git add -A ."
+      "pre-commit": "npx lint-staged"
     }
   },
   "lint-staged": {
