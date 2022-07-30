@@ -1,1 +1,1 @@
-export * from './SmallButton';
+export * from './SmallButton'

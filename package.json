@@ -11,7 +11,9 @@
     "new:component": "hygen new component"
   },
   "husky": {
-    "hooks": {}
+    "hooks": {
+      "pre-commit": "yarn format && git add -A ."
+    }
   },
   "dependencies": {
     "@types/jest": "^28.1.6",

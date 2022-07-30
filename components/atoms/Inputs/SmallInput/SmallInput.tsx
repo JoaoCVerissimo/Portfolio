@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-type Props = {};
+type Props = {}
 
 export const SmallInput: React.FC<Props> = (props) => {
-  return <div className="" data-testid="test" />;
-};
+  return <div className="" data-testid="test" />
+}

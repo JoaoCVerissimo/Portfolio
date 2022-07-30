@@ -1,1 +1,1 @@
-export * from './MediumButton';
+export * from './MediumButton'
