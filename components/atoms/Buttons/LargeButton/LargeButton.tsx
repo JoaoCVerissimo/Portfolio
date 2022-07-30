@@ -1,7 +1,7 @@
 import React from 'react'
 
 type Props = {}
-
+// "test": "eslint --cache --fix && prettier --write",
 debugger
 //test
 export const LargeButton: React.FC<Props> = (props) => {

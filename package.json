@@ -11,11 +11,6 @@
     "eslint": "eslint --cache --fix",
     "new:component": "hygen new component"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npx lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js, tsx, ts, md}": [
       "eslint --cache --fix"
