@@ -15,9 +15,20 @@
       "pre-commit": "yarn format && git add -A ."
     }
   },
+  "lint-staged": {
+    "*.{js, tsx, ts, md}": [
+      "eslint --cache --fix"
+    ],
+    "*.{js, tsx, ts, css}": [
+      "prettier --write"
+    ]
+  },
   "dependencies": {
+    "@storybook/react": "^6.5.9",
     "@types/jest": "^28.1.6",
     "jest-dom": "^4.0.0",
+    "lint-staged": "^13.0.3",
+    "mrm": "^4.0.0",
     "next": "12.2.3",
     "postcss": "^8.0.9",
     "react": "18.2.0",
@@ -30,8 +41,12 @@
     "@types/node": "18.6.2",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
-    "eslint": "8.20.0",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
     "eslint-config-next": "12.2.3",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.30.1",
     "husky": "^8.0.0",
     "hygen": "^6.2.8",
     "jest": "^28.1.3",
