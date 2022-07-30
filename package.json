@@ -10,7 +10,8 @@
     "format": "prettier --write .",
     "eslint": "eslint --cache --fix",
     "test": "eslint --cache --fix && prettier --write",
-    "new:component": "hygen new component"
+    "new:component": "hygen new component",
+    "testPreCommit": "eslint --cache --fix && prettier --write ."
   },
   "lint-staged": {
     "*.{js,tsx,ts,md}": "eslint --cache --fix",

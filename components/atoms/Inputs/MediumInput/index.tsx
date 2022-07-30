@@ -1,1 +1,1 @@
-export * from './MediumInput';
+export * from './MediumInput'

@@ -5,3 +5,5 @@ const Home: NextPage = (props) => {
 }
 
 export default Home
+
+// "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write ."
