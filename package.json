@@ -12,9 +12,6 @@
     "test": "eslint --cache --fix && prettier --write",
     "new:component": "hygen new component"
   },
-  "husky": {
-    "pre-commit": "lint-staged"
-  },
   "lint-staged": {
     "*.{js,tsx,ts,md}": "eslint --cache --fix",
     "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write ."
