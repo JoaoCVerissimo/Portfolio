@@ -1,6 +1,6 @@
-# This is a step by step guide on how i got this project started
+# João Veríssimo - Developer ready to deploy 🚀
 
-Let's get it started
+This is a step by step guide on how i got this project started. Let's go.
 
 ## Phase 1 - Install requirements and get your project running
 
@@ -50,7 +50,7 @@ This section is intended to show u and give you the basics of the main packages.
 
 - Tailwind CSS
 
-- Hygen
+- Hygen - [Here](https://prog.world/creating-react-components-with-hygen/) you have a good explanation on how to get started using hygen to create template files for your tests and story books.
 
 - React Query
 
@@ -58,7 +58,11 @@ This section is intended to show u and give you the basics of the main packages.
 
 - Next Auth
 
-- More to come as we progress with ideas
+- Jotai
+
+- Husky
+
+- More to come as we progress with ideas, maybe some package to document everything later.
 
 ## Creating and running Tests
 
