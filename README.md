@@ -60,7 +60,7 @@ This section is intended to show u and give you the basics of the main packages.
 
 - Jotai
 
-- Husky
+- Husky, Prettier, Eslint and lint-staged for pre-commit
 
 - More to come as we progress with ideas, maybe some package to document everything later.
 

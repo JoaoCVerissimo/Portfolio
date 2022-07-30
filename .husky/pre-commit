@@ -1,5 +1,11 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+. "$(dirname -- "$0")/common.sh"
 
-# npx lint-staged
-yarn run testPreCommit
+# Issue: https://github.com/typicode/husky/issues/968#issuecomment-1176848345
+# So, adding exec 1> /dev/tty (to redirect stdout) or exec >/dev/tty 2>&1
+exec >/dev/tty 2>&1
+
+yarn run pre-commit
+# Runs this:
+# "eslint --cache --fix . && prettier --write . && git add -A ."

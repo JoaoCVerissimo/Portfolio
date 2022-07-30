@@ -6,16 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "new:component": "hygen new component",
     "lint": "prettier --check .",
     "format": "prettier --write .",
-    "eslint": "eslint --cache --fix",
-    "test": "eslint --cache --fix && prettier --write",
-    "new:component": "hygen new component",
-    "testPreCommit": "eslint --cache --fix && prettier --write ."
+    "eslint": "eslint --cache --fix .",
+    "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,tsx,ts,md}": "eslint --cache --fix",
-    "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write ."
+    "*.{js,tsx,ts}": "eslint --cache --fix .",
+    "*.{js,jsx,ts,tsx,md,html,json,css,scss}": "prettier --write ."
   },
   "dependencies": {
     "@storybook/react": "^6.5.9",
@@ -41,7 +40,7 @@
     "eslint-config-next": "12.2.3",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.30.1",
-    "husky": "^8.0.0",
+    "husky": "^8.0.1",
     "hygen": "^6.2.8",
     "jest": "^28.1.3",
     "prettier": "2.7.1",

@@ -1,1 +1,1 @@
-export * from './LargeInput';
+export * from './LargeInput'
