@@ -56,11 +56,11 @@ This section is intended to show u and give you the basics of the main packages.
 
 - Typescript
 
-- Next Auth
+- Next Auth - SSO authentication with google
 
 - Jotai
 
-- Husky, Prettier, Eslint and lint-staged for pre-commit
+- Husky, Prettier, Eslint and lint-staged for pre-commit - Finished (need documentation)
 
 - More to come as we progress with ideas, maybe some package to document everything later.
 

@@ -5,7 +5,7 @@ import { Story, Meta } from '@storybook/react/types-6-0'
 type Props = React.ComponentProps<typeof Homepage>
 
 const csf: Meta = {
-  title: 'templates/Homepage',
+  title: 'pages/Homepage',
 }
 
 const Template: Story<Props> = (args) => <Homepage {...args} />

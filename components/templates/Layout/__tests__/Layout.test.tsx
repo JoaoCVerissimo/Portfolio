@@ -1,8 +1,9 @@
+import React from 'react'
 import { render, screen } from '@testing-library/react'
-import { Homepage } from '../'
+import { Layout } from '../'
 
 test('renders component successfully', () => {
-  render(<Homepage />)
+  render(<Layout />)
   const element = screen.getByTestId(/test/i)
   expect(element).toBeInTheDocument()
 })

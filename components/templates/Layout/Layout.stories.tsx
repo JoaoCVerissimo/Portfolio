@@ -1,14 +1,14 @@
 import React from 'react'
-import { ProfilePage } from './'
+import { Layout } from './'
 import { Story, Meta } from '@storybook/react/types-6-0'
 
-type Props = React.ComponentProps<typeof ProfilePage>
+type Props = React.ComponentProps<typeof Layout>
 
 const csf: Meta = {
-  title: 'templates/ProfilePage',
+  title: 'templates/Layout',
 }
 
-const Template: Story<Props> = (args) => <ProfilePage {...args} />
+const Template: Story<Props> = (args) => <Layout {...args} />
 
 export const c1 = Template.bind({})
 c1.storyName = 'default'
